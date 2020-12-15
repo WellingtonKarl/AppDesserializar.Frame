@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDesserializar.Frame", "AppDesserializar.Frame\AppDesserializar.Frame.csproj", "{ECAE60BA-6DA3-4238-9535-A74E90CE5BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECAE60BA-6DA3-4238-9535-A74E90CE5BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAE60BA-6DA3-4238-9535-A74E90CE5BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAE60BA-6DA3-4238-9535-A74E90CE5BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAE60BA-6DA3-4238-9535-A74E90CE5BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA1A87B4-53F1-4D69-A091-DC1566E9AFBF}
+	EndGlobalSection
+EndGlobal
