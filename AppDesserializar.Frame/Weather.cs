@@ -24,7 +24,7 @@ namespace AppDesserializar.Frame
         #region Events
         private void Weather_Load(object sender, EventArgs e)
         {
-
+            label1.Text = $"\u00a9 Copyleft - { DateTime.Now.Year }";
         }
 
         private async void btnDeserialize_Click(object sender, EventArgs e)

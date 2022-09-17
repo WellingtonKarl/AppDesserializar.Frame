@@ -45,9 +45,11 @@
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox1.Controls.Add(this.txbWoeid);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(13, 13);
+            this.groupBox1.Location = new System.Drawing.Point(20, 20);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(222, 49);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(333, 75);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Woeid";
@@ -55,9 +57,10 @@
             // txbWoeid
             // 
             this.txbWoeid.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbWoeid.Location = new System.Drawing.Point(6, 19);
+            this.txbWoeid.Location = new System.Drawing.Point(9, 29);
+            this.txbWoeid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbWoeid.Name = "txbWoeid";
-            this.txbWoeid.Size = new System.Drawing.Size(210, 22);
+            this.txbWoeid.Size = new System.Drawing.Size(313, 30);
             this.txbWoeid.TabIndex = 0;
             this.txbWoeid.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -69,9 +72,11 @@
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.txbDesserialization);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox2.Location = new System.Drawing.Point(13, 84);
+            this.groupBox2.Location = new System.Drawing.Point(20, 129);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(775, 327);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(1162, 503);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Desserialização";
@@ -82,18 +87,20 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txbDesserialization.Font = new System.Drawing.Font("Nirmala UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbDesserialization.Location = new System.Drawing.Point(6, 19);
+            this.txbDesserialization.Location = new System.Drawing.Point(9, 29);
+            this.txbDesserialization.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txbDesserialization.Multiline = true;
             this.txbDesserialization.Name = "txbDesserialization";
             this.txbDesserialization.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txbDesserialization.Size = new System.Drawing.Size(763, 302);
+            this.txbDesserialization.Size = new System.Drawing.Size(1142, 462);
             this.txbDesserialization.TabIndex = 1;
             // 
             // btnDeserialize
             // 
-            this.btnDeserialize.Location = new System.Drawing.Point(241, 32);
+            this.btnDeserialize.Location = new System.Drawing.Point(362, 49);
+            this.btnDeserialize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDeserialize.Name = "btnDeserialize";
-            this.btnDeserialize.Size = new System.Drawing.Size(91, 21);
+            this.btnDeserialize.Size = new System.Drawing.Size(136, 32);
             this.btnDeserialize.TabIndex = 2;
             this.btnDeserialize.Text = "Desserializar";
             this.btnDeserialize.UseVisualStyleBackColor = true;
@@ -101,9 +108,10 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(344, 32);
+            this.btnClear.Location = new System.Drawing.Point(516, 49);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(91, 21);
+            this.btnClear.Size = new System.Drawing.Size(136, 32);
             this.btnClear.TabIndex = 3;
             this.btnClear.Text = "Limpar";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -115,24 +123,25 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(19, 425);
+            this.label1.Location = new System.Drawing.Point(28, 654);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 12);
+            this.label1.Size = new System.Drawing.Size(0, 26);
             this.label1.TabIndex = 4;
-            this.label1.Text = "© CopyLeft - 2019";
             // 
             // Weather
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::AppDesserializar.Frame.Properties.Resources.rain_4d61d3a8b5d7072aa3b2d1b6758e3c1ef5ccb44fa4d681cdab1d4d1b39bf8341;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDeserialize);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Weather";
             this.Text = "Json Parser";
             this.Load += new System.EventHandler(this.Weather_Load);
